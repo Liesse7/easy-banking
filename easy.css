@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+.nav-bar {
+  background-color: rgb(227, 227, 227);
+  height: 75px;
+}
+.logo {
+  padding-top: 5px;
+  margin-right: 250px;
+  margin-left: 90px;
+}
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+  justify-content: center;
+  padding-top: 0px;
+}
+.ligo {
+  display: flex;
+}
+.nav-bar input {
+  width: 100px;
+  height: 30px;
+  background-color: rgba(0, 100, 0, 0.517);
+  border-radius: 20px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 150px;
+}
+.bck {
+  margin-top: 0%;
+  background-image: url(images/bg-intro-desktop.svg);
+  height: 90vh;
+  background-position: 130%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.bck > img {
+  float: right;
+  height: 80vh;
+}
+body h1 {
+  margin: 0;
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgba(0, 0, 0, 0.694);
+}
+body input {
+  width: 100px;
+  height: 30px;
+  background-image: linear-gradient(
+    to right,
+    rgba(255, 0, 0, 0.711),
+    rgba(0, 128, 0, 0.694)
+  );
+  border-radius: 20px;
+  float: left;
+  margin-top: 20px;
+  margin-right: 150px;
+}
+.bck2 {
+  background-color: rgb(221, 232, 232);
+  height: 70vh;
+  margin-top: 150px;
+}
+.block {
+  display: flex;
+  padding-left: 60px;
+}
+.bck2 h1 {
+  padding-top: 30px;
+  font-size: 50px;
+}
+.bck3 {
+  background-color: rgb(255, 255, 255);
+  height: 80vh;
+}
+.bck3 img {
+  height: 200px;
+  width: 200px;
+}
+.all {
+  display: flex;
+  padding-left: 40px;
+  gap: 20px;
+}
+.bck3 h1 {
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.bar {
+  background-color: rgb(2, 10, 45);
+  height: 150px;
+}
+.golo {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+.social {
+  padding-right: 30px;
+  padding-top: 30px;
+}
+.end {
+  display: flex;
+  float: right;
+  gap: 90px;
+}
